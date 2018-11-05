@@ -12,4 +12,4 @@ WORKDIR /
 COPY index.html index.html
 
 CMD [ "python", "-m", "SimpleHTTPServer", "80" ]
-CMD [ "python", "./esecuzione.py" ]
+CMD [ "python", "esecuzione.py" ]
